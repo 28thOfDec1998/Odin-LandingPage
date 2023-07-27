@@ -1,0 +1,51 @@
+/* Photo by Pixabay: https://www.pexels.com/photo/white-rose-160916/ 
+https://www.youtube.com/watch?v=Ut7K0nryxFk
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 8rem;
+    cursor: pointer;
+}
+
+.links{
+    margin-right: 10rem;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links a{
+    text-decoration: none; 
+    color: #e5e7eb;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
