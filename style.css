@@ -15,8 +15,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.nav{
+header{
     background-color: #1f2937;
+}
+
+.nav{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,6 +50,10 @@ body{
 }
 
 .hero{
-    background-color: #1f2937;
     color: #F9FAF8;
+    display: flex;
+}
+
+.hero-pic{
+    width: 500px;
 }
