@@ -17,6 +17,10 @@ body{
 
 header{
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .nav{
@@ -24,16 +28,16 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 3rem 0;
+    margin: 0 8rem;
 }
 
-.logo{
-    width: 150px;
-    margin-left: 8rem;
+#logo{
+
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
     cursor: pointer;
-}
-
-.links{
-    margin-right: 10rem;
 }
 
 .links ul{
@@ -52,8 +56,40 @@ header{
 .hero{
     color: #F9FAF8;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8rem;
+    gap: 10rem;
 }
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.main-text{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.sub-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button{
+    padding: 7px 1em;
+    width: 120px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
 
 .hero-pic{
     width: 500px;
+    height: 200px;
+    object-fit: cover;
 }
