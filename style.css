@@ -133,6 +133,21 @@ button{
     font-size: 18px;
 }
 
+/* quote */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.quote em{
+    text-align: center;
+    font-size: 36px;
+}
+
 
 
 
