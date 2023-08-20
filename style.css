@@ -20,6 +20,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 2rem;
     
 }
 
@@ -80,7 +81,7 @@ header{
 }
 
 button{
-    padding: 7px 1em;
+    padding: 10px 1em;
     width: 120px;
     color: #F9FAF8;
     background-color: #3882F6;
@@ -88,8 +89,49 @@ button{
 }
 
 
-.hero-pic{
-    width: 500px;
-    height: 200px;
-    object-fit: cover;
+/* .hero-pic{
+    width: 600px;
+    height: 300px;
+} */
+
+/* Types scetion */
+
+.types{
+
+    background-color: #F9FAF8;
+    padding: 3rem 0;
+
 }
+
+.type-head{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 900;
+    font-size: 36px;
+    padding-bottom: 2rem;
+}
+
+.type-pics{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rose-type{
+    width: 300px;
+    object-fit: scale-down;
+    border-radius: 10px;
+}
+
+.pic-text{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
