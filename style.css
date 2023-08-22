@@ -147,6 +147,7 @@ header{
 .quote em{
     text-align: center;
     font-size: 36px;
+    color: #1f2937;
 }
 
 .quote p{
@@ -170,8 +171,15 @@ header{
     justify-content: space-evenly;
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 3em 1em;
+    padding: 3em 0.5em;
     border-radius: 8px;
+}
+
+.action-sign h4{
+
+    font-size: 18px;
+    font-weight: 900;
+
 }
 
 .action-sign button{
@@ -184,6 +192,19 @@ header{
     cursor: pointer;
 }
 
+/* copyright */
 
+.copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 3em 13em;
+    color: #F9FAF8;
+}
+
+.copy p{
+    text-align: center;
+}
 
 
