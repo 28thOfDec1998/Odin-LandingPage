@@ -1,5 +1,4 @@
 /* Photo by Pixabay: https://www.pexels.com/photo/white-rose-160916/ 
-https://www.youtube.com/watch?v=Ut7K0nryxFk
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
@@ -84,12 +83,14 @@ header{
     font-size: 18px;
 }
 
-button{
+.hero button{
     padding: 10px 1em;
     width: 120px;
     color: #F9FAF8;
     background-color: #3882F6;
+    border: #3882F6;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 
@@ -103,7 +104,7 @@ button{
 .types{
 
     background-color: #F9FAF8;
-    padding: 3rem 0;
+    padding: 5rem 0;
 
 }
 
@@ -148,8 +149,40 @@ button{
     font-size: 36px;
 }
 
+.quote p{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
+}
 
+/* action */
 
+.action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F9FAF8;
+    padding: 10em 13em;
+}
+
+.action-sign{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 3em 1em;
+    border-radius: 8px;
+}
+
+.action-sign button{
+    padding: 10px 1em;
+    width: 120px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
 
 
